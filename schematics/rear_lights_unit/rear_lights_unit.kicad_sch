@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d7503315-c43d-483b-8e44-2a129b61c505")
+	(paper "A4")
+	(title_block
+		(title "FarrhadTech Rear Lights Unit")
+		(date "2024-11-24")
+		(rev "0")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
