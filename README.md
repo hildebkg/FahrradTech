@@ -5,7 +5,6 @@ Senior design project files for FarrhadTech: an affordable, feature-rich bike co
 ## Navigation
 
 * [/main](/main): project source code
-* [/managed_components](/managed_components): source code for added components (sensors, LCD, etc)
 * [/references](/references/): datasheets, etc
 * [/schematics](/schematics/): hardware design files
 * [/sim](/sim): hardware simulation files
