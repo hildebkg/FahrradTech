@@ -1,7 +1,8 @@
 # build files
-.pio
 .vscode
 build
+managed_components
+sdkconfig.*
 
 # temporary KiCad files
 *.000
@@ -24,3 +25,6 @@ sym-lib-table
 
 # temporary Multisim files
 *.ms14 (Security copy)
+
+# various example files I've referenced to get things running
+/examples
