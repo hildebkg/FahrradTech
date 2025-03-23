@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rear_lights_control_box.kicad_pro",
+    "filename": "rear_lights_unit_control_box.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -372,7 +372,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/Katy/source/repos/FarrhadTech/schematics/rear_lights_unit_control_box/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
