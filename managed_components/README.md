@@ -4,6 +4,6 @@
 
 Here is the list of components which I have modified:
 
-* [/maucke__bmp280](/maucke__bmp280)
+* [/maucke__bmp280](maucke__bmp280)
 
 All other components have been utilized without change.
