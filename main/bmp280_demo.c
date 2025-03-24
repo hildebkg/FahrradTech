@@ -10,11 +10,18 @@
  * maucke/bmp280 component to read barometric pressure and 
  * calculate altitude with a BMP280 sensor and an ESP32. This 
  * initializes the I2C bus (espressif/i2c_bus) and the sensor object. 
- * The sensor is configured to run with its default address of 
- * 0x76. Measurements are requested every 5 seconds until operation 
- * is interrupted.
- * See "TODO:"s for more things to be added.
- */
+ * My particular sensor board is configured to run with the default 
+ * address of 0x76. Measurements for temperature and pressure are 
+ * requested every 5 seconds until operation is interrupted. Altitude 
+ * is also calculated every 5 seconds (it is not measured but rather 
+ * calculated from a pressure measurement).
+ * NOTE: I made several changes to the original component source code. 
+ * Some were for debugging (I had comms issues initially), but others 
+ * were functional. There were bugs in the way pressure and altitude 
+ * were calculated which have now been fixed. I also removed a function
+ * for measuring humidity (this sensor cannot actually do that). These 
+ * fixes are present in the managed_components folder of this project.
+*/
 
 #define I2C_MASTER_PORT   I2C_NUM_0  // I2C port number
 #define I2C_MASTER_SCL_IO 33         // GPIO pin for SCL
@@ -25,6 +32,11 @@ static const char *TAG = "BMP280_TEST";
 
 void app_main(void)
 {
+    // measurements
+    float temperature = 0;
+    float pressure = 0; 
+    float altitude = 0;
+
     // configure settings for I2C bus
     i2c_config_t i2c_conf = {
         .mode = I2C_MODE_MASTER,
@@ -55,6 +67,10 @@ void app_main(void)
         i2c_bus_delete(&i2c_bus);
         return;
     }
+    else 
+    {
+        ESP_LOGI(TAG, "BMP280 sensor created successfully!");
+    }
 
     // initialize BMP280 sensor
     if (bmp280_default_init(bmp280) != ESP_OK) 
@@ -64,14 +80,20 @@ void app_main(void)
         i2c_bus_delete(&i2c_bus);
         return;
     }
+    else 
+    {
+        ESP_LOGI(TAG, "BMP280 sensor initialized successfully!");
+    }
 
-    ESP_LOGI(TAG, "BMP280 sensor initialized successfully");
+    /*** NOTE:  adding the delay here got rid of the issue where the first 
+     * set of measurements taken below would always fail
+    */
+    vTaskDelay(500 / portTICK_PERIOD_MS);
 
     // infinite loop to read sensor data
+    ESP_LOGI(TAG, "Starting infinite measurement loop...");
     while (1) 
     {
-        float temperature, pressure, altitude;
-
         // read temperature
         if (bmp280_read_temperature(bmp280, &temperature) == ESP_OK) 
         {
@@ -85,8 +107,7 @@ void app_main(void)
         // read pressure
         if (bmp280_read_pressure(bmp280, &pressure) == ESP_OK) 
         {
-            // convert Pa to hPa before outputting
-            ESP_LOGI(TAG, "Pressure: %.2f hPa", pressure / 100.0f);
+            ESP_LOGI(TAG, "Pressure: %.2f hPa", pressure);
         } 
         else 
         {
@@ -107,10 +128,7 @@ void app_main(void)
         vTaskDelay(5000 / portTICK_PERIOD_MS);
     }
 
-    /*** cleanup! this part is never reached due to the infinite loop.
-    * TODO: add example that uses a finite loop (which would use the 
-    * following two lines)
-    */
+    // cleanup! this part is never reached due to the infinite loop.
     //bmp280_delete(&bmp280);
     //i2c_bus_delete(&i2c_bus);
 }
