@@ -1,7 +1,6 @@
 # build files
 .vscode
 build
-managed_components
 sdkconfig.*
 
 # temporary KiCad files
