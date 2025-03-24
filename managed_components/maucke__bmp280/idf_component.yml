@@ -1,0 +1,8 @@
+dependencies:
+  i2c_bus:
+    public: true
+  idf:
+    version: '>=5.0'
+description: I2C driver for BMP280 Barometer sensor
+url: https://github.com/Maucke/bmp280
+version: 1.0.1
