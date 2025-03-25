@@ -1,8 +1,8 @@
 /*
- * SPDX-FileCopyrightText: 2022-2023 Espressif Systems (Shanghai) CO LTD
- *
- * SPDX-License-Identifier: Apache-2.0
- */
+* SPDX-FileCopyrightText: 2022-2023 Espressif Systems (Shanghai) CO LTD
+*
+* SPDX-License-Identifier: Apache-2.0
+*/
 
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
@@ -40,10 +40,14 @@ static esp_err_t bme280_read_uint16(bme280_handle_t sensor, uint8_t addr, uint16
     esp_err_t ret = ESP_FAIL;
     bme280_dev_t *sens = (bme280_dev_t *) sensor;
     uint8_t data0, data1;
-    if (i2c_bus_read_byte(sens->i2c_dev, addr, &data0) != ESP_OK) {
+    if (i2c_bus_read_byte(sens->i2c_dev, addr, &data0) != ESP_OK) 
+    {
+        ESP_LOGI("BME280:", "bme280_read_uint16->i2c_bus_read_byte failed to read byte at address 0x%x", addr);
         return ret;
     }
-    if (i2c_bus_read_byte(sens->i2c_dev, addr + 1, &data1) != ESP_OK) {
+    if (i2c_bus_read_byte(sens->i2c_dev, addr + 1, &data1) != ESP_OK) 
+    {
+        ESP_LOGI("BME280:", "bme280_read_uint16->i2c_bus_read_byte failed to read byte at address 0x%x", addr + 1);
         return ret;
     }
     *data = (data0 << 8) | data1;
@@ -55,10 +59,14 @@ static esp_err_t bme280_read_uint16_le(bme280_handle_t sensor, uint8_t addr, uin
     esp_err_t ret = ESP_FAIL;
     bme280_dev_t *sens = (bme280_dev_t *) sensor;
     uint8_t data0, data1;
-    if (i2c_bus_read_byte(sens->i2c_dev, addr, &data0) != ESP_OK) {
+    if (i2c_bus_read_byte(sens->i2c_dev, addr, &data0) != ESP_OK) 
+    {
+        ESP_LOGI("BME280:", "bme280_read_uint16_le->i2c_bus_read_byte failed to read byte at address 0x%x", addr);
         return ret;
     }
-    if (i2c_bus_read_byte(sens->i2c_dev, addr + 1, &data1) != ESP_OK) {
+    if (i2c_bus_read_byte(sens->i2c_dev, addr + 1, &data1) != ESP_OK) 
+    {
+        ESP_LOGI("BME280:", "bme280_read_uint16_le->i2c_bus_read_byte failed to read byte at address 0x%x", addr + 1);
         return ret;
     }
     *data = (data1 << 8) | data0;
@@ -355,12 +363,10 @@ esp_err_t bme280_read_humidity(bme280_handle_t sensor, float *humidity)
 esp_err_t bme280_read_altitude(bme280_handle_t sensor, float seaLevel, float *altitude)
 {
     float pressure = 0.0;
-    float temp = 0.0;
-    if (bme280_read_pressure(sensor, &temp) != ESP_OK) {
+    if (bme280_read_pressure(sensor, &pressure) != ESP_OK) {
         return ESP_FAIL;
     }
-    float atmospheric = pressure / 100.0F;
-    *altitude = 44330.0 * (1.0 - pow(atmospheric / seaLevel, 0.1903));
+    *altitude = 44330.0 * (1.0 - pow(pressure / seaLevel, 0.1903));
     return ESP_OK;
 }
 
