@@ -1,4 +1,22 @@
 dependencies:
+  espressif/bme280:
+    component_hash: 873d97d0bd30004f45d1653f078a4bafe39c1767e57d4bae0f0a13bc3a4d5e3d
+    dependencies:
+    - name: espressif/cmake_utilities
+      registry_url: https://components.espressif.com
+      require: private
+      version: 0.*
+    - name: espressif/i2c_bus
+      registry_url: https://components.espressif.com
+      require: public
+      version: '*'
+    - name: idf
+      require: private
+      version: '>=4.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.1.1
   espressif/cmake_utilities:
     component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
     dependencies:
@@ -101,10 +119,11 @@ dependencies:
       type: service
     version: 1.0.1
 direct_dependencies:
+- espressif/bme280
 - espressif/esp_lcd_st7796
 - espressif/sht3x
 - idf
 - maucke/bmp280
-manifest_hash: a48db9e77106edad9d8f2de37dfff92d3939e5f472bd3c4f43800dd0bc17f6e6
+manifest_hash: 620942f20b5cc46e5277946c2d4cbb8fd8720f5479d4db3723aacd9e18ea4585
 target: esp32
 version: 2.0.0
