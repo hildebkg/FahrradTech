@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "FarrhadTech Rear Lights Unit")
-		(date "2025-03-18")
+		(date "2025-03-26")
 		(rev "0")
 	)
 	(lib_symbols
@@ -971,7 +971,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_out line
 					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "B+"
@@ -989,7 +989,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_out line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "B-"
@@ -1007,7 +1007,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "OUT+"
@@ -1025,7 +1025,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at -12.7 -6.35 0)
 					(length 2.54)
 					(name "OUT-"
@@ -2087,7 +2087,7 @@
 		(uuid "8a631b6a-5835-4d9e-9f2b-3e072ebe8044")
 	)
 	(junction
-		(at 140.97 29.972)
+		(at 142.494 37.592)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eda8004-58d4-4860-b7fa-ada5e1f13008")
@@ -2245,16 +2245,6 @@
 			(type default)
 		)
 		(uuid "018f15c6-73cd-472f-925a-6e2d565db5bf")
-	)
-	(wire
-		(pts
-			(xy 94.234 29.972) (xy 94.234 37.592)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01da35fe-96ad-413f-8846-024dd1ef36b3")
 	)
 	(wire
 		(pts
@@ -2538,16 +2528,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 29.972) (xy 94.234 29.972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25da7ece-5e42-4b8c-a53a-6209f76dce25")
-	)
-	(wire
-		(pts
 			(xy 147.828 110.49) (xy 147.828 97.79)
 		)
 		(stroke
@@ -2688,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 22.86) (xy 140.97 29.972)
+			(xy 142.494 30.48) (xy 142.494 37.592)
 		)
 		(stroke
 			(width 0)
@@ -2848,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 51.816 37.592) (xy 94.234 37.592)
+			(xy 51.816 37.592) (xy 115.062 37.592)
 		)
 		(stroke
 			(width 0)
@@ -2925,6 +2905,16 @@
 			(type default)
 		)
 		(uuid "48f64d2f-eccd-4d90-aeba-9bd3ffde2e49")
+	)
+	(wire
+		(pts
+			(xy 125.222 37.592) (xy 142.494 37.592)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491916d5-124d-44f8-bbee-83d383874ff1")
 	)
 	(wire
 		(pts
@@ -3008,16 +2998,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 85.09) (xy 22.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55ffc9fb-c09b-4881-9b49-f26dbd84b263")
-	)
-	(wire
-		(pts
 			(xy 129.286 189.23) (xy 134.874 189.23)
 		)
 		(stroke
@@ -3095,6 +3075,16 @@
 			(type default)
 		)
 		(uuid "6386bd83-1f89-4fb6-8c7e-714f2be3f389")
+	)
+	(wire
+		(pts
+			(xy 142.494 37.592) (xy 142.494 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647308a5-648c-48b3-ba7d-14657ff710ac")
 	)
 	(wire
 		(pts
@@ -3868,16 +3858,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 29.972) (xy 140.97 29.972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbb59e94-681e-4060-8d22-2b227ec48980")
-	)
-	(wire
-		(pts
 			(xy 55.88 85.09) (xy 64.77 85.09)
 		)
 		(stroke
@@ -3938,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 29.972) (xy 148.082 29.972)
+			(xy 142.494 37.592) (xy 149.606 37.592)
 		)
 		(stroke
 			(width 0)
@@ -4085,6 +4065,16 @@
 			(type default)
 		)
 		(uuid "e48422d4-b49b-49d1-8327-ae7355e83529")
+	)
+	(wire
+		(pts
+			(xy 22.86 72.39) (xy 22.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58426aa-7203-42ff-b095-40fa4a874f67")
 	)
 	(wire
 		(pts
@@ -4307,9 +4297,20 @@
 		)
 		(uuid "043cd227-7980-475e-848a-4cd4d9d934cf")
 	)
+	(text "This connector breaks out the signals \nto/from the control box (on handlebars)"
+		(exclude_from_sim no)
+		(at 225.806 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "047d407f-83ab-45e0-956a-894022bf61cd")
+	)
 	(text "This switch connects the rest of the system to the battery  \nfor power. Make sure it is turned to the \"off\" position \nwhen charging the battery to ensure correct operation!"
 		(exclude_from_sim no)
-		(at 114.808 36.322 0)
+		(at 101.346 18.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4412,9 +4413,9 @@
 		)
 		(uuid "d8591956-5e52-4d53-a282-82ef65d7db30")
 	)
-	(text "NOTES\nAll LEDs used are CHANZON brand, 5 mm packages. Each has a forward voltage of 2 V and a forward current of 20 mA. \nTo calculate the current limiting resistor value at maximum battery voltage: V = IR =(4.2 V - 2 V) = (20 mA)R -> R = 110 ohms.\nTo account for resistor tolerances, I rounded up to the next standard value of 120 ohms. Calculating the current through the \nLEDs at minimum battery voltage with this resistor gives: 2.5 - 2 V = I(120 ohms) -> I = 4.17 mA.\n\nI am running each of the 555 timers in astable mode. To determine timing, 3 values need to be chosen: Ra, Rb, and C.\nIt is generally recommended to choose a value for Ra that is 10% of Rb's value, so I picked standard values of 7.5 kohms for Ra \nand 75 kohms for Rb. This gives an adequate duty cycle as follows: D = Rb/(Ra + 2Rb)*100 = 47.62%.\nI wanted to aim for a frequency of about 1 Hz for each timer so that the LEDs are on for about 0.5 seconds. Choosing a \nstandard C value of 10 uF gives the following frequency: f = 1.44/[(Ra + 2Rb)C] = 1.44/[(7500 + (2*75000))*10^-5] = 0.914 Hz.\n\nI decided not to do anything very sophisticated for the battery for this circuit. The 18650 batteries I selected have a discharge \ncutoff voltage of 2.5 V, which is the threshold at which the DW01A chip on the TP4056 module disconnects the battery from the \nload to prevent over-discharge. I know that it is recommended to stop discharge on 18650s before they reach their cutoff (at \nabout 3 V, for example) to increase their overall lifespan, but I have opted to keep things simpler here. I will see how it goes! \nThis is definitely an area for improvement in future iterations, in addition to adding reverse polarity protection (it's not like \nthe battery will be replaced any time soon, but still). It might also be worth looking into switching the load more elegantly. "
+	(text "NOTES\nAll LEDs used are CHANZON brand, 5 mm packages. Each has a forward voltage of 2 V and a forward current of 20 mA. \nTo calculate the current limiting resistor value at maximum battery voltage: V = IR =(4.2 V - 2 V) = (20 mA)R -> R = 110 ohms.\nTo account for resistor tolerances, I rounded up to the next standard value of 120 ohms. Calculating the current through the \nLEDs at minimum battery voltage with this resistor gives: 2.5 - 2 V = I(120 ohms) -> I = 4.17 mA.\n\nI am running each of the 555 timers in astable mode. To determine timing, 3 values need to be chosen: Ra, Rb, and C.\nIt is generally recommended to choose a value for Ra that is 10% of Rb's value, so I picked standard values of 7.5 kohms for Ra \nand 75 kohms for Rb. This gives an adequate duty cycle as follows: D = Rb/(Ra + 2Rb)*100 = 47.62%.\nI wanted to aim for a frequency of about 1 Hz for each timer so that the LEDs are on for about 0.5 seconds. Choosing a \nstandard C value of 10 uF gives the following frequency: f = 1.44/[(Ra + 2Rb)C] = 1.44/[(7500 + (2*75000))*10^-5] = 0.914 Hz."
 		(exclude_from_sim no)
-		(at 177.8 161.798 0)
+		(at 177.8 170.434 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4545,7 +4546,7 @@
 	)
 	(global_label "V_OUT"
 		(shape output)
-		(at 148.082 29.972 0)
+		(at 149.606 37.592 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4555,7 +4556,7 @@
 		)
 		(uuid "b924bd96-5688-42f9-83cc-86f2f0ac4337")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.752 29.972 0)
+			(at 158.276 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,6 +4607,72 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.494 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "014bf5e7-f6e3-4b20-a46e-4fa636c4c787")
+		(property "Reference" "#PWR016"
+			(at 142.494 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.494 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.494 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.494 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.494 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9204239-64ea-4650-ac46-7f5409770cda")
+		)
+		(instances
+			(project "rear_lights_unit"
+				(path "/d7503315-c43d-483b-8e44-2a129b61c505"
+					(reference "#PWR016")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6196,6 +6263,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 142.494 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fcb595b-623c-433d-b512-1c8a02e67f02")
+		(property "Reference" "C5"
+			(at 146.558 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 146.558 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.4592 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.494 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.494 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa665b90-e8b8-4dce-9c3f-4f2b159b6445")
+		)
+		(pin "2"
+			(uuid "4e0cb96a-fd66-4ba5-8e7a-e3be54274840")
+		)
+		(instances
+			(project "rear_lights_unit"
+				(path "/d7503315-c43d-483b-8e44-2a129b61c505"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 121.158 97.79 270)
 		(unit 1)
@@ -7643,16 +7780,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 125.73 29.972 0)
+		(at 120.142 37.592 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8dfa89a6-8a7a-459e-b752-cc1a1aa74ce3")
-		(property "Reference" "SW1"
-			(at 125.73 22.86 0)
+		(uuid "8e128430-6a93-4710-9302-6d02de2bfb43")
+		(property "Reference" "SW2"
+			(at 120.142 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,7 +7797,7 @@
 			)
 		)
 		(property "Value" "rocker_switch"
-			(at 125.73 25.4 0)
+			(at 120.142 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +7805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 29.972 0)
+			(at 120.142 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +7814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 29.972 0)
+			(at 120.142 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7686,7 +7823,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 125.73 29.972 0)
+			(at 120.142 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,15 +7832,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "25f5034c-b2a5-45ba-a491-943c92b872f9")
+			(uuid "ebefcf56-37e8-4f99-8a69-12d53fd9c257")
 		)
 		(pin "2"
-			(uuid "ded169b6-4d34-465a-ac84-5a01c991ea05")
+			(uuid "77916d36-0b5d-429d-8639-0afd77d039f7")
 		)
 		(instances
-			(project ""
+			(project "rear_lights_unit"
 				(path "/d7503315-c43d-483b-8e44-2a129b61c505"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8528,7 +8665,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 140.97 22.86 0)
+		(at 142.494 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8537,7 +8674,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2c53e80-ae05-405d-885e-0e322d3a7c03")
 		(property "Reference" "#PWR07"
-			(at 140.97 26.67 0)
+			(at 142.494 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8546,7 +8683,7 @@
 			)
 		)
 		(property "Value" "V+"
-			(at 140.97 18.288 0)
+			(at 142.494 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,7 +8691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 22.86 0)
+			(at 142.494 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,7 +8700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 22.86 0)
+			(at 142.494 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,7 +8709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 140.97 22.86 0)
+			(at 142.494 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
