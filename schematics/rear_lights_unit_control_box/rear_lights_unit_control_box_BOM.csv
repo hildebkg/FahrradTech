@@ -1,0 +1,5 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"D1,D2","LED","~","","2",""
+"J1","Conn_01x04_Socket","~","","1",""
+"R1,R2","120","~","","2",""
+"SW1,SW2","SW_SPDT","~","","2",""
