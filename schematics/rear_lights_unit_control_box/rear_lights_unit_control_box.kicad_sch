@@ -1189,7 +1189,7 @@
 			)
 		)
 	)
-	(global_label "V_OUT"
+	(global_label "V_BATT"
 		(shape input)
 		(at 137.16 40.64 0)
 		(fields_autoplaced yes)
@@ -1201,7 +1201,7 @@
 		)
 		(uuid "57d321c4-b77e-4fbf-8564-ee9edaa79291")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.83 40.64 0)
+			(at 146.4952 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1255,7 @@
 			)
 		)
 	)
-	(global_label "V_OUT"
+	(global_label "V_BATT"
 		(shape input)
 		(at 173.99 116.586 180)
 		(fields_autoplaced yes)
@@ -1267,7 +1267,7 @@
 		)
 		(uuid "99f46247-b05c-4e40-ac9d-05fd435d1cbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.32 116.586 0)
+			(at 164.6548 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1343,7 @@
 			)
 		)
 	)
-	(global_label "V_OUT"
+	(global_label "V_BATT"
 		(shape input)
 		(at 88.646 116.586 180)
 		(fields_autoplaced yes)
@@ -1355,7 +1355,7 @@
 		)
 		(uuid "cc28d7a5-5867-4737-a3c9-e51e330fe84b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.976 116.586 0)
+			(at 79.3108 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)

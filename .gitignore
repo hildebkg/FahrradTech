@@ -21,6 +21,7 @@ fp-info-cache
 ~*.lck
 \#auto_saved_files#
 sym-lib-table
+fp-lib-table
 
 # temporary Multisim files
 *.ms14 (Security copy)
