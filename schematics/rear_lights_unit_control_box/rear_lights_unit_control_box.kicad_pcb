@@ -6,10 +6,10 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A")
 	(title_block
 		(title "FarrhadTech Rear Lights Unit Control Box")
-		(date "2025-03-26")
+		(date "2025-03-27")
 		(rev "0")
 	)
 	(layers
@@ -116,7 +116,7 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -3742,7 +3742,7 @@
 			(xy 101.6 50.8) (xy 152.4 50.8)
 		)
 		(height -7.874)
-		(gr_text "2000.0000 mils"
+		(gr_text "50.8000 mm"
 			(at 127 41.826 0)
 			(layer "F.SilkS")
 			(uuid "4dc40da0-f5b2-4f91-9d0a-2f6cae45b6d1")
@@ -3775,7 +3775,7 @@
 			(xy 152.4 101.6) (xy 152.4 50.8)
 		)
 		(height 7.62)
-		(gr_text "2000.0000 mils"
+		(gr_text "50.8000 mm"
 			(at 158.92 76.2 90)
 			(layer "F.SilkS")
 			(uuid "80720c0e-40e2-47b6-8403-4c10afaa6d21")

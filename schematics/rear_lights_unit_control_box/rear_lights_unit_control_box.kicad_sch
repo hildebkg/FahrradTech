@@ -1441,7 +1441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Num" " Keystone Electronics 5000"
+		(property "Part Num" "Keystone Electronics 5000"
 			(at 64.262 40.64 0)
 			(effects
 				(font
@@ -1516,7 +1516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Num" " Keystone Electronics 5001"
+		(property "Part Num" "Keystone Electronics 5001"
 			(at 78.486 43.18 0)
 			(effects
 				(font
@@ -1591,7 +1591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Num" " Keystone Electronics 5002"
+		(property "Part Num" "Keystone Electronics 5002"
 			(at 106.68 48.26 0)
 			(effects
 				(font
@@ -1656,7 +1656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0.5 W, 1%"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 198.12 108.966 0)
 			(effects
 				(font
@@ -1665,7 +1665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Num" "MFR25SFTF52-120R"
+		(property "Part Num" "MFR-25SFTF52-120R  "
 			(at 198.12 108.966 90)
 			(effects
 				(font
@@ -1743,7 +1743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Num" " Keystone Electronics 5001"
+		(property "Part Num" "Keystone Electronics 5001"
 			(at 92.456 45.72 0)
 			(effects
 				(font
@@ -2207,7 +2207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0.5 W, 1%"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 112.776 108.966 0)
 			(effects
 				(font
@@ -2216,7 +2216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Num" "MFR25SFTF52-120R"
+		(property "Part Num" "MFR-25SFTF52-120R  "
 			(at 112.776 108.966 90)
 			(effects
 				(font
