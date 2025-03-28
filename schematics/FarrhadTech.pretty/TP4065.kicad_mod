@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "18650 battery charging module")
+	(tags "TP4056, battery, management, 18650")
 	(property "Reference" "REF**"
 		(at 0 -10 0)
 		(unlocked yes)
@@ -109,22 +111,6 @@
 		(remove_unused_layers no)
 		(uuid "8726f628-bfaf-4d39-9b98-ba4c691b1584")
 	)
-	(pad "1" thru_hole rect
-		(at 10.95 -7.1)
-		(size 1.524 1.524)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "d90b30ce-6efd-4a3a-a18f-5b7f698cc17b")
-	)
-	(pad "1" thru_hole rect
-		(at 11.06 4.36)
-		(size 1.524 1.524)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "c2c3fcc9-8758-47d6-9996-47b6dd0fbe6b")
-	)
 	(pad "2" thru_hole rect
 		(at -12.05 6.9)
 		(size 1.524 1.524)
@@ -133,7 +119,7 @@
 		(remove_unused_layers no)
 		(uuid "a75349e5-6347-4d40-a68f-48e91d294f72")
 	)
-	(pad "2" thru_hole rect
+	(pad "3" thru_hole rect
 		(at 10.95 -4.56)
 		(size 1.524 1.524)
 		(drill 1)
@@ -141,7 +127,23 @@
 		(remove_unused_layers no)
 		(uuid "0fd8b113-e4b4-440e-a064-2c16472dc09e")
 	)
-	(pad "2" thru_hole rect
+	(pad "4" thru_hole rect
+		(at 11.06 4.36)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2c3fcc9-8758-47d6-9996-47b6dd0fbe6b")
+	)
+	(pad "5" thru_hole rect
+		(at 10.95 -7.1)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d90b30ce-6efd-4a3a-a18f-5b7f698cc17b")
+	)
+	(pad "6" thru_hole rect
 		(at 11.06 6.9)
 		(size 1.524 1.524)
 		(drill 1)
