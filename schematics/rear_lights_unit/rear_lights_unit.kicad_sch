@@ -5167,7 +5167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 41.402 104.902 0)
 			(effects
 				(font
@@ -5243,7 +5243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 69.342 92.202 0)
 			(effects
 				(font
@@ -5320,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 121.158 104.902 0)
 			(effects
 				(font
@@ -5398,7 +5398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 171.958 104.902 0)
 			(effects
 				(font
@@ -5543,7 +5543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 132.588 92.202 0)
 			(effects
 				(font
@@ -5620,7 +5620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 209.55 110.49 0)
 			(effects
 				(font
@@ -5697,7 +5697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 248.92 72.39 0)
 			(effects
 				(font
@@ -5774,7 +5774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 41.402 66.802 0)
 			(effects
 				(font
@@ -5851,7 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 56.896 129.032 0)
 			(effects
 				(font
@@ -6159,7 +6159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "battery management module"
+		(property "Description" "18650 battery management module"
 			(at 39.37 30.48 0)
 			(effects
 				(font
@@ -6249,7 +6249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 171.958 117.856 0)
 			(effects
 				(font
@@ -6328,7 +6328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 117.602 181.356 0)
 			(effects
 				(font
@@ -6405,7 +6405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 248.92 97.79 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 117.602 166.878 0)
 			(effects
 				(font
@@ -6626,7 +6626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 69.342 104.902 0)
 			(effects
 				(font
@@ -6770,7 +6770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 220.98 85.09 0)
 			(effects
 				(font
@@ -6915,7 +6915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Polarized capacitor, 25 VDC, 20%, 2mm lead spacing"
 			(at 142.748 39.878 0)
 			(effects
 				(font
@@ -6993,7 +6993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 80.772 104.902 0)
 			(effects
 				(font
@@ -7071,7 +7071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 80.772 79.502 0)
 			(effects
 				(font
@@ -7148,7 +7148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 121.158 92.202 0)
 			(effects
 				(font
@@ -7225,7 +7225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, 25 VDC, X5R, 20%, 5 mm lead spacing"
 			(at 140.97 180.594 0)
 			(effects
 				(font
@@ -7453,7 +7453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 69.342 66.802 0)
 			(effects
 				(font
@@ -7672,7 +7672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 248.92 110.49 0)
 			(effects
 				(font
@@ -7749,7 +7749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 160.528 79.502 0)
 			(effects
 				(font
@@ -7826,7 +7826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 160.528 104.902 0)
 			(effects
 				(font
@@ -7972,7 +7972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "18650 battery, 3000 mAH, 3.7 V nominal"
 			(at 61.976 23.114 0)
 			(effects
 				(font
@@ -8050,7 +8050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 132.588 79.502 0)
 			(effects
 				(font
@@ -8214,7 +8214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 132.588 104.902 0)
 			(effects
 				(font
@@ -8292,7 +8292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 132.588 66.802 0)
 			(effects
 				(font
@@ -8371,7 +8371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 22.606 166.878 0)
 			(effects
 				(font
@@ -8450,7 +8450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 22.606 181.356 0)
 			(effects
 				(font
@@ -8593,7 +8593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 41.402 92.202 0)
 			(effects
 				(font
@@ -8673,7 +8673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 145.796 136.144 0)
 			(effects
 				(font
@@ -8749,7 +8749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 69.342 117.602 0)
 			(effects
 				(font
@@ -8826,7 +8826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 29.972 79.502 0)
 			(effects
 				(font
@@ -8904,7 +8904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 171.958 92.202 0)
 			(effects
 				(font
@@ -8983,7 +8983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, 50 VDC, X7R, 10%, 2.5 mm lead spacing"
 			(at 39.624 166.878 0)
 			(effects
 				(font
@@ -9060,7 +9060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "SPDT rocker switch, red"
 			(at 120.396 34.29 0)
 			(effects
 				(font
@@ -9137,7 +9137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 160.528 92.202 0)
 			(effects
 				(font
@@ -9213,7 +9213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 69.342 79.502 0)
 			(effects
 				(font
@@ -9291,7 +9291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 171.958 66.802 0)
 			(effects
 				(font
@@ -9369,7 +9369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 220.98 110.49 0)
 			(effects
 				(font
@@ -9447,7 +9447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 80.772 117.602 0)
 			(effects
 				(font
@@ -9523,7 +9523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 160.528 117.856 0)
 			(effects
 				(font
@@ -9600,7 +9600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 29.972 92.202 0)
 			(effects
 				(font
@@ -9678,7 +9678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 171.958 79.502 0)
 			(effects
 				(font
@@ -9755,7 +9755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 209.55 97.79 0)
 			(effects
 				(font
@@ -9832,7 +9832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 121.158 79.502 0)
 			(effects
 				(font
@@ -9909,7 +9909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 29.972 66.802 0)
 			(effects
 				(font
@@ -9986,7 +9986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 209.55 85.09 0)
 			(effects
 				(font
@@ -10063,7 +10063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 151.892 129.032 0)
 			(effects
 				(font
@@ -10274,7 +10274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 80.772 92.202 0)
 			(effects
 				(font
@@ -10436,7 +10436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 248.92 85.09 0)
 			(effects
 				(font
@@ -10645,7 +10645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 41.402 79.502 0)
 			(effects
 				(font
@@ -10725,7 +10725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 50.8 136.144 0)
 			(effects
 				(font
@@ -10803,7 +10803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 260.35 97.79 0)
 			(effects
 				(font
@@ -10881,7 +10881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 260.35 85.09 0)
 			(effects
 				(font
@@ -10958,7 +10958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 29.972 104.902 0)
 			(effects
 				(font
@@ -11102,7 +11102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -11179,7 +11179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 160.528 66.802 0)
 			(effects
 				(font
@@ -11256,7 +11256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 209.55 72.39 0)
 			(effects
 				(font
@@ -11399,7 +11399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, 25 VDC, X5R, 20%, 5 mm lead spacing"
 			(at 45.974 180.594 0)
 			(effects
 				(font
@@ -11477,7 +11477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 260.35 110.49 0)
 			(effects
 				(font
@@ -11556,7 +11556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, 50 VDC, X7R, 10%, 2.5 mm lead spacing"
 			(at 134.62 166.878 0)
 			(effects
 				(font
@@ -11731,7 +11731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 80.772 66.802 0)
 			(effects
 				(font
@@ -11809,7 +11809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red or yellow"
 			(at 220.98 72.39 0)
 			(effects
 				(font
@@ -11886,7 +11886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 121.158 66.802 0)
 			(effects
 				(font
@@ -11964,7 +11964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 0.25 W, 1%"
 			(at 260.35 72.39 0)
 			(effects
 				(font

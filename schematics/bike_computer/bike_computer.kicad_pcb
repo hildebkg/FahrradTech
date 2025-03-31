@@ -6,10 +6,10 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A")
 	(title_block
 		(title "FarrhadTech Bike Computer")
-		(date "2024-11-24")
+		(date "2025-03-31")
 		(rev "0")
 	)
 	(layers
