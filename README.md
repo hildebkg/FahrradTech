@@ -4,6 +4,7 @@ Senior design project files for FarrhadTech: an affordable, feature-rich bike co
 
 ## Navigation
 
+* [/img](/img): project images (referenced throughout this repo)
 * [/main](/main): project source code
 * [/managed_components](/managed_components/): project libraries
 * [/references](/references/): datasheets, etc
@@ -46,3 +47,5 @@ This project utilizes the official Espressif Systems IoT Development Framework (
     * Processes the `idf_component.yml` file in your `main` folder for each component in your project and resolves dependencies.
     * Creates/updates the `dependencies.lock` file in your  project directory with the full dependency list.
     * Downloads all newly-added depedencies to the `managed_components` folder in your project directory.
+* If you want to remove a component you have added, you can simply edit the `/main/idf_component.yml` directly. For example, if you added the `espressif/esp_lcd_st7796` component but no longer want it, you can remove that corresponding line in your YAML file and then run `idf.py reconfigure`. You will get a message similar to "NOTICE: Deleting 1 unused components", and the component will be removed for you. Your `dependencies.lock` file will also be updated.
+* If you'd like to make development easier in Visual Studio Code with the C/C++ extension, you should add the following to the "include path" setting for the extension: `C:/Espressif/frameworks/esp-idf-v5.4/components/**` (or whatever your specific path is). This will make it so that VS Code can find standard ESP header files that aren't necessarily in your `managed_components folder`.
