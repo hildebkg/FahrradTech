@@ -745,7 +745,7 @@
 			(pin output line
 				(at -15.24 -22.86 0)
 				(length 2.54)
-				(name "T_IRQ"
+				(name "T_IRQ_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -871,7 +871,7 @@
 			(pin input line
 				(at -15.24 2.54 0)
 				(length 2.54)
-				(name "RESET"
+				(name "RESET_N"
 					(effects
 						(font
 							(size 1.27 1.27)
