@@ -2,7 +2,7 @@
 %TF.CreationDate,2025-03-31T22:30:44-04:00*%
 %TF.ProjectId,rear_lights_unit_control_box,72656172-5f6c-4696-9768-74735f756e69,0*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Profile,NP*%
+%TF.FileFunction,AssemblyDrawing,Bot*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
 G04 Created by KiCad (PCBNEW 8.0.8) date 2025-03-31 22:30:44*
@@ -10,14 +10,5 @@ G04 Created by KiCad (PCBNEW 8.0.8) date 2025-03-31 22:30:44*
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%TA.AperFunction,Profile*%
-%ADD10C,0.200000*%
-%TD*%
 G04 APERTURE END LIST*
-D10*
-X101600000Y-50800000D02*
-X152400000Y-50800000D01*
-X152400000Y-98800000D01*
-X101600000Y-98800000D01*
-X101600000Y-50800000D01*
 M02*
