@@ -1114,6 +1114,179 @@
 				)
 			)
 		)
+		(symbol "FarrhadTech:GW12LxH"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GW12LxH"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GW12LxH_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GW12LxH_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "FarrhadTech:TP4056"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1296,139 +1469,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2534,6 +2574,10 @@
 		(at 41.91 43.18)
 		(uuid "2bf91f38-b91e-4deb-bf7b-cc2e10878769")
 	)
+	(no_connect
+		(at 125.476 31.75)
+		(uuid "ce7d138a-0828-4c4a-b4ea-79a2f053d345")
+	)
 	(wire
 		(pts
 			(xy 34.29 152.146) (xy 34.29 189.23)
@@ -3066,6 +3110,16 @@
 	)
 	(wire
 		(pts
+			(xy 127.254 36.83) (xy 127.254 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8f1a5e-0d7f-403f-9058-860568567105")
+	)
+	(wire
+		(pts
 			(xy 163.322 152.146) (xy 169.164 152.146)
 		)
 		(stroke
@@ -3113,6 +3167,16 @@
 			(type default)
 		)
 		(uuid "43702e81-58ba-43ad-a77e-405cf817c840")
+	)
+	(wire
+		(pts
+			(xy 127.254 34.29) (xy 142.748 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d66416-301f-4e78-81e2-996c463b1aec")
 	)
 	(wire
 		(pts
@@ -3203,16 +3267,6 @@
 			(type default)
 		)
 		(uuid "48f64d2f-eccd-4d90-aeba-9bd3ffde2e49")
-	)
-	(wire
-		(pts
-			(xy 125.476 34.29) (xy 142.748 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "491916d5-124d-44f8-bbee-83d383874ff1")
 	)
 	(wire
 		(pts
@@ -4336,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.476 36.83) (xy 127.254 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34a6871-d35d-425b-88c5-0c08dce9be6f")
+	)
+	(wire
+		(pts
 			(xy 169.164 157.226) (xy 169.164 191.516)
 		)
 		(stroke
@@ -4758,7 +4822,7 @@
 	)
 	(text "This switch connects the rest of the system \nto the battery for power. Make sure it is \nturned to the \"off\" position when charging \nthe battery to ensure correct operation!"
 		(exclude_from_sim no)
-		(at 92.456 20.32 0)
+		(at 94.996 18.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6141,7 +6205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FarrhadTech:TP4065"
+		(property "Footprint" "FarrhadTech:TP4056_module"
 			(at 39.37 48.26 0)
 			(effects
 				(font
@@ -9017,83 +9081,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 120.396 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e128430-6a93-4710-9302-6d02de2bfb43")
-		(property "Reference" "SW2"
-			(at 120.396 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "rocker_switch"
-			(at 120.396 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH"
-			(at 120.396 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.396 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPDT rocker switch, red"
-			(at 120.396 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Num" "GW12LCH"
-			(at 120.396 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebefcf56-37e8-4f99-8a69-12d53fd9c257")
-		)
-		(pin "2"
-			(uuid "77916d36-0b5d-429d-8639-0afd77d039f7")
-		)
-		(instances
-			(project "rear_lights_unit"
-				(path "/d7503315-c43d-483b-8e44-2a129b61c505"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 160.528 92.202 0)
 		(unit 1)
@@ -10014,6 +10001,86 @@
 			(project "rear_lights_unit"
 				(path "/d7503315-c43d-483b-8e44-2a129b61c505"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FarrhadTech:GW12LxH")
+		(at 120.396 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3200a85-9d1a-440f-a2a2-3386c856170d")
+		(property "Reference" "SW1"
+			(at 120.396 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GW12LxH"
+			(at 120.396 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FarrhadTech:SW_Lever_1P2T_NKK_GW12LxH"
+			(at 120.396 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.396 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPDT paddle switch, red, right-angle"
+			(at 120.396 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Num" "GW12LCH"
+			(at 120.396 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "43f0c8ba-bd1a-4689-83d9-814ac4d08318")
+		)
+		(pin "5"
+			(uuid "8b4bb4d8-337c-49f2-b0a6-1b6d956c5d12")
+		)
+		(pin "6"
+			(uuid "00767d02-0e88-4cc1-bec7-9296294781a3")
+		)
+		(instances
+			(project ""
+				(path "/d7503315-c43d-483b-8e44-2a129b61c505"
+					(reference "SW1")
 					(unit 1)
 				)
 			)

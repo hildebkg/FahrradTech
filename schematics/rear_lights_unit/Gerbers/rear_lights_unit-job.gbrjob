@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.8"
     },
-    "CreationDate": "2025-03-28T10:57:28-04:00"
+    "CreationDate": "2025-03-31T23:20:11-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -64,6 +64,16 @@
     {
       "Path": "rear_lights_unit-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "rear_lights_unit-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "rear_lights_unit-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
