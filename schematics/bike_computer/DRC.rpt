@@ -1,0 +1,14 @@
+** Drc report for bike_computer.kicad_pcb **
+** Created on 2025-04-04T02:38:50-0400 **
+
+** Found 1 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning (excluded)
+    @(81.5250 mm, 124.0710 mm): Rectangle on F.Silkscreen
+    @(71.8345 mm, 56.2020 mm): Rectangle on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

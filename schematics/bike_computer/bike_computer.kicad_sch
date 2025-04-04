@@ -5,7 +5,7 @@
 	(uuid "2b41d131-639c-46cb-9359-3be8c954a52e")
 	(paper "A4")
 	(title_block
-		(title "FarrhadTech Bike Computer")
+		(title "FahrradTech Bike Computer")
 		(date "2025-03-31")
 		(rev "0")
 	)
@@ -1547,6 +1547,179 @@
 				)
 			)
 		)
+		(symbol "FarrhadTech:GW12LxH"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GW12LxH"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GW12LxH_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GW12LxH_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "FarrhadTech:RYS352A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2595,139 +2768,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -3072,12 +3112,6 @@
 		(uuid "00aca075-c852-445f-923e-91ddab50d641")
 	)
 	(junction
-		(at 179.07 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a0c46ca-3f4f-4463-83b4-eaa9b617cce9")
-	)
-	(junction
 		(at 92.71 68.834)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3108,12 +3142,6 @@
 		(uuid "224e444d-af29-4534-b055-b87bc1ac77cf")
 	)
 	(junction
-		(at 72.644 159.004)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28af0332-a37e-461f-9c78-8d4026a7ad88")
-	)
-	(junction
 		(at 227.33 87.376)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3142,6 +3170,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52f92f34-4482-453a-b634-e3b2a9e4beeb")
+	)
+	(junction
+		(at 72.644 159.004)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "624d88ef-d86f-4f37-b752-3ef8628015f7")
 	)
 	(junction
 		(at 36.322 104.14)
@@ -3184,6 +3218,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de9205b1-317e-4945-ac16-c9da770d2f97")
+	)
+	(junction
+		(at 179.07 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0abae35-4383-45bc-9aae-c20b94a2c1e1")
 	)
 	(junction
 		(at 198.12 121.666)
@@ -3236,6 +3276,10 @@
 		(uuid "47260b35-54f6-4e8b-a81f-3d70a79ad7da")
 	)
 	(no_connect
+		(at 148.59 26.67)
+		(uuid "5053c9db-c7d3-4762-8273-bb2d87a01027")
+	)
+	(no_connect
 		(at 113.538 134.62)
 		(uuid "9288a9ca-c20b-4dee-a9bd-182fa875b4dd")
 	)
@@ -3281,6 +3325,16 @@
 	)
 	(wire
 		(pts
+			(xy 94.234 142.24) (xy 94.234 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031b031e-0381-42e8-9a45-ca8c8095458e")
+	)
+	(wire
+		(pts
 			(xy 209.804 134.366) (xy 209.804 137.16)
 		)
 		(stroke
@@ -3318,6 +3372,16 @@
 			(type default)
 		)
 		(uuid "0939fe02-757a-4898-a572-060e36c31643")
+	)
+	(wire
+		(pts
+			(xy 151.13 21.59) (xy 151.13 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a97b6db-6238-48f0-bfc3-c9b2e729bb7d")
 	)
 	(wire
 		(pts
@@ -3521,7 +3585,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.124 26.67) (xy 103.124 35.56)
+			(xy 103.124 24.13) (xy 103.124 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3538,6 +3602,16 @@
 			(type default)
 		)
 		(uuid "2cac46a1-b630-495d-a301-6bfabf7ee4c4")
+	)
+	(wire
+		(pts
+			(xy 94.234 139.7) (xy 113.538 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e530bba-781c-4e63-a15c-1e6439fa9e01")
 	)
 	(wire
 		(pts
@@ -3581,6 +3655,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.266 144.78) (xy 96.266 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374e99c3-38a6-4d42-902a-30eeec9b6a37")
+	)
+	(wire
+		(pts
+			(xy 96.266 142.24) (xy 113.538 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377b75de-072b-42d3-9b50-03ea58a0d39a")
+	)
+	(wire
+		(pts
 			(xy 173.482 129.54) (xy 173.482 108.966)
 		)
 		(stroke
@@ -3601,7 +3695,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.124 26.67) (xy 138.43 26.67)
+			(xy 103.124 24.13) (xy 138.43 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3671,16 +3765,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.614 139.7) (xy 113.538 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49d2e088-18fc-48e7-afee-d6c75a726700")
-	)
-	(wire
-		(pts
 			(xy 41.402 128.016) (xy 70.104 128.016)
 		)
 		(stroke
@@ -3701,13 +3785,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.948 144.78) (xy 91.948 159.004)
+			(xy 86.614 139.7) (xy 91.694 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f4fd49a-2108-479a-a5c7-a98e5c57aaab")
+		(uuid "4b849dc4-2a7a-4e61-b7b8-c4c6bf624475")
 	)
 	(wire
 		(pts
@@ -3781,6 +3865,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 26.67) (xy 179.07 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d4bffa-5e4c-4131-8bd9-6f1d901108e5")
+	)
+	(wire
+		(pts
 			(xy 30.734 73.66) (xy 49.022 73.66)
 		)
 		(stroke
@@ -3808,6 +3902,16 @@
 			(type default)
 		)
 		(uuid "5e714456-113a-4c01-9719-f1872d741b5b")
+	)
+	(wire
+		(pts
+			(xy 86.614 144.78) (xy 96.266 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f403cd3-3baf-4f10-87dd-6932f92fa9d8")
 	)
 	(wire
 		(pts
@@ -4001,6 +4105,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.694 139.7) (xy 91.694 159.004)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825b7563-78a6-4df5-a077-b16a4d801369")
+	)
+	(wire
+		(pts
 			(xy 73.66 52.578) (xy 73.66 35.56)
 		)
 		(stroke
@@ -4058,6 +4172,16 @@
 			(type default)
 		)
 		(uuid "8e37b02b-887a-4c62-aa30-3d1235509e98")
+	)
+	(wire
+		(pts
+			(xy 91.694 159.004) (xy 72.644 159.004)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb88fc8-a921-4207-80b3-c73aec75301d")
 	)
 	(wire
 		(pts
@@ -4161,16 +4285,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.948 159.004) (xy 72.644 159.004)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "958d999e-58e1-416b-b0a8-289884f13b1b")
-	)
-	(wire
-		(pts
 			(xy 160.274 119.38) (xy 160.274 121.666)
 		)
 		(stroke
@@ -4218,16 +4332,6 @@
 			(type default)
 		)
 		(uuid "9addd4ac-d317-4dd1-bfe5-088190eacd37")
-	)
-	(wire
-		(pts
-			(xy 86.614 142.24) (xy 113.538 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f024a82-42f2-4c9d-9e5c-aa1349b31ec7")
 	)
 	(wire
 		(pts
@@ -4341,6 +4445,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 21.59) (xy 151.13 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc8513e-84ea-4899-95cb-b5165845df97")
+	)
+	(wire
+		(pts
 			(xy 169.418 127) (xy 169.418 111.506)
 		)
 		(stroke
@@ -4381,6 +4495,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.614 142.24) (xy 94.234 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb11d78a-64ba-4010-8ed6-73e300c041d2")
+	)
+	(wire
+		(pts
 			(xy 148.844 104.902) (xy 152.146 104.902)
 		)
 		(stroke
@@ -4408,16 +4532,6 @@
 			(type default)
 		)
 		(uuid "c5416ac5-f345-4fba-93b3-5c89b138fcb2")
-	)
-	(wire
-		(pts
-			(xy 148.59 26.67) (xy 179.07 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7879af2-886c-4d2d-ac1a-218dca8f8962")
 	)
 	(wire
 		(pts
@@ -4591,16 +4705,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.614 144.78) (xy 91.948 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c07284-fce6-48e3-bf50-1c955bda87ca")
-	)
-	(wire
-		(pts
 			(xy 179.07 28.956) (xy 179.07 26.67)
 		)
 		(stroke
@@ -4628,6 +4732,16 @@
 			(type default)
 		)
 		(uuid "eae44b93-4373-4a84-bd96-e364dc5328c8")
+	)
+	(wire
+		(pts
+			(xy 179.07 26.67) (xy 236.474 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd7a9f9-ca64-49b8-bdcd-3e2fc422fa01")
 	)
 	(wire
 		(pts
@@ -4678,16 +4792,6 @@
 			(type default)
 		)
 		(uuid "f3b18d64-13f9-4d1d-aec9-325ae1fb9796")
-	)
-	(wire
-		(pts
-			(xy 179.07 26.67) (xy 236.474 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f49acf71-6687-49ce-bef1-e8a71b366487")
 	)
 	(wire
 		(pts
@@ -4742,7 +4846,7 @@
 	)
 	(text "This switch connects the rest of the system to the battery  \nfor power. Make sure it is turned to the \"off\" position \nwhen charging the battery to ensure correct operation!"
 		(exclude_from_sim no)
-		(at 115.57 32.258 0)
+		(at 112.014 34.036 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4807,17 +4911,6 @@
 			(justify left)
 		)
 		(uuid "c61a1f00-143e-4232-9cd4-155938b3f8c8")
-	)
-	(text "NOTES\nI have not added bypass caps/any other external components for the sensors because they are contained on small development \nboards which already implement these components. Since the boards are rather small, I will simply solder those on to the \nPCBs as-is.\nFor the PCB layout, all bypass capacitors should be kept as close as possible to their corresponding input pins."
-		(exclude_from_sim no)
-		(at 177.8 172.466 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "d59d68c8-6c8e-48af-9b9b-a357200dfcf9")
 	)
 	(text "480x320 TFT  \nLCD display"
 		(exclude_from_sim yes)
@@ -4963,83 +5056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 143.51 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d69be26-7008-4a05-aa58-015e792cb05a")
-		(property "Reference" "SW1"
-			(at 143.51 19.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 143.51 22.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH"
-			(at 143.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPDT rocker switch, red"
-			(at 143.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Num" "GW12LCH"
-			(at 143.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9400bdf3-ff48-4bf4-be30-d853e39bfc7e")
-		)
-		(pin "2"
-			(uuid "aa005566-8d17-4887-afdb-1c99ff1e173c")
-		)
-		(instances
-			(project "bike_computer"
-				(path "/2b41d131-639c-46cb-9359-3be8c954a52e"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FarrhadTech:RYS352A")
 		(at 49.022 88.9 0)
 		(mirror y)
@@ -5066,7 +5082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FarrhadTech:RYS352A"
+		(property "Footprint" "FahrradTech:RYS352A"
 			(at 49.022 88.9 0)
 			(effects
 				(font
@@ -5573,7 +5589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 258.572 39.878 0)
 			(effects
 				(font
@@ -5716,7 +5732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FarrhadTech:ESP-WROOM-32_DevKitV1"
+		(property "Footprint" "FahrradTech:ESP-WROOM-32_DevKitV1"
 			(at 130.302 128.778 0)
 			(effects
 				(font
@@ -6025,7 +6041,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "FarrhadTech:Display_420x380"
+		(property "Footprint" "FahrradTech:Display_420x380"
 			(at 227.33 129.286 0)
 			(effects
 				(font
@@ -6153,7 +6169,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "FarrhadTech:TP4056_module"
+		(property "Footprint" "FahrradTech:TP4056_module"
 			(at 39.878 49.53 0)
 			(effects
 				(font
@@ -6217,6 +6233,86 @@
 		)
 	)
 	(symbol
+		(lib_id "FarrhadTech:GW12LxH")
+		(at 143.51 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c8ea7ba-626d-4a51-8507-f07d31bae0a0")
+		(property "Reference" "SW1"
+			(at 143.51 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GW12LxH"
+			(at 143.51 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FahrradTech:SW_Lever_1P2T_NKK_GW12LxH"
+			(at 143.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPDT paddle switch, red, right-angle"
+			(at 143.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Num" "GW12LxH"
+			(at 143.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8b233153-3c56-4f06-97db-bf2fba07b3c6")
+		)
+		(pin "6"
+			(uuid "eb0f86b5-2102-4f5e-9107-2077e89af293")
+		)
+		(pin "4"
+			(uuid "e4f8cbff-d597-4ec2-893e-bc4cb740d920")
+		)
+		(instances
+			(project ""
+				(path "/2b41d131-639c-46cb-9359-3be8c954a52e"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FarrhadTech:TC1263")
 		(at 236.474 32.004 0)
 		(unit 1)
@@ -6241,7 +6337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FarrhadTech:TO-220-3_Horizontal_TabUpNoHole"
+		(property "Footprint" "FahrradTech:TO-220-5_P3.4x3.8mm_StaggerOdd_Lead7.13mm_TabDown"
 			(at 236.474 32.004 0)
 			(effects
 				(font
@@ -6552,7 +6648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 61.214 43.18 0)
 			(effects
 				(font
@@ -6929,7 +7025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 78.74 34.036 0)
 			(effects
 				(font
@@ -7628,7 +7724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FarrhadTech:BatteryHolder_18650"
+		(property "Footprint" "FahrradTech:BatteryHolder_18650"
 			(at 62.484 22.86 90)
 			(effects
 				(font
@@ -7984,7 +8080,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FarrhadTech:BME280_module"
+		(property "Footprint" "FahrradTech:BME280_module"
 			(at 109.474 156.21 0)
 			(effects
 				(font

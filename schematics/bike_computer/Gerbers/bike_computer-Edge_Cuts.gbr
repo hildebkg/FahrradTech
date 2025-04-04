@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.8*%
+%TF.CreationDate,2025-04-04T13:43:43-04:00*%
+%TF.ProjectId,bike_computer,62696b65-5f63-46f6-9d70-757465722e6b,0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.8) date 2025-04-04 13:43:43*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X69856750Y-45301000D02*
+X181856750Y-45301000D01*
+X181856750Y-124301000D01*
+X69856750Y-124301000D01*
+X69856750Y-45301000D01*
+M02*
