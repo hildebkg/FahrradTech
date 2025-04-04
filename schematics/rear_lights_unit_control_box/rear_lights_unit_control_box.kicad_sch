@@ -5,7 +5,7 @@
 	(uuid "b301f5fd-96fe-42bb-988c-4bd2f6f45296")
 	(paper "A4")
 	(title_block
-		(title "FarrhadTech Rear Lights Unit Control Box")
+		(title "FahrradTech Rear Lights Unit Control Box")
 		(date "2025-03-31")
 	)
 	(lib_symbols
@@ -1587,7 +1587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 69.342 40.64 0)
 			(effects
 				(font
@@ -1662,7 +1662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 83.566 43.18 0)
 			(effects
 				(font
@@ -1737,7 +1737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 111.76 48.26 0)
 			(effects
 				(font
@@ -1889,7 +1889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 97.536 45.72 0)
 			(effects
 				(font

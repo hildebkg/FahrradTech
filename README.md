@@ -1,6 +1,6 @@
-# FarrhadTech
+# FahrradTech
 
-Senior design project files for FarrhadTech: an affordable, feature-rich bike computer with integrated safety accessories.
+Senior design project files for FahrradTech: an affordable, feature-rich bike computer with integrated safety accessories.
 
 ## Navigation
 

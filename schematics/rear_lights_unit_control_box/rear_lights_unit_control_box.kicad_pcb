@@ -518,7 +518,7 @@
 			(uuid "517f053f-a96f-4eab-858b-3190dc8c4653")
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "243dde27-0034-4855-9918-0768ca861fef")
 		(at 124.46 82.594)
@@ -527,7 +527,7 @@
 		(property "Reference" "TP2"
 			(at 0 -2.5 0)
 			(layer "F.Fab")
-			(uuid "0fd10349-fd8f-4bce-baf5-13433551bb49")
+			(uuid "7a4d3f0f-19a5-4bed-a0b7-edc93edc9a4c")
 			(effects
 				(font
 					(size 1 1)
@@ -538,7 +538,7 @@
 		(property "Value" "LEFT"
 			(at 0 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "6e7ce44c-1567-431a-b050-3a38daa5044c")
+			(uuid "efcf09cc-c9b7-4083-8268-97459208c1aa")
 			(effects
 				(font
 					(size 1 1)
@@ -546,12 +546,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d48fb39-2b08-4226-ab2c-ed851438f3c1")
+			(uuid "c3748629-ecaf-40bc-8398-c208a4b9b37d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,7 +564,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d34f71c5-23c4-4352-9da6-2152079614c2")
+			(uuid "9ee5e589-72bb-4883-9447-b62178c25986")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,7 +577,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebb379f1-f4a0-4d97-a75f-72032ce713a5")
+			(uuid "6ec1de8d-7ea2-472b-97bf-db474c93bcdd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +612,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "1ae2c5ae-7305-46f1-976c-3f64d955f2e5")
+			(uuid "0eb39d2c-cba2-4008-9155-5e0917672485")
 		)
 		(fp_circle
 			(center 0 0)
@@ -623,7 +623,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "293df224-4e6b-4662-ab71-c954acdd3b56")
+			(uuid "b90e3d95-cfcc-4f91-9691-c6b6021868cc")
 		)
 		(fp_line
 			(start -0.75 -0.25)
@@ -633,7 +633,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "acf2669f-edf3-4434-b2fe-b3553f1df538")
+			(uuid "60dc7616-4635-4543-8021-9051dbcf02cf")
 		)
 		(fp_line
 			(start -0.75 0.25)
@@ -643,7 +643,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2672232d-3ed5-4ac6-8c0d-119d026b6c73")
+			(uuid "597b2f96-4d0d-4bfd-9f4d-259f63bf7bf3")
 		)
 		(fp_line
 			(start 0.75 -0.25)
@@ -653,7 +653,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "511259ed-6572-4f89-8f25-002b96760368")
+			(uuid "b6e55219-3d16-4f83-bd05-d30d5195fe37")
 		)
 		(fp_line
 			(start 0.75 0.25)
@@ -663,7 +663,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f6035494-e1cc-4022-b574-069159ada6c7")
+			(uuid "c2700cb6-ab2f-4e3e-9a6a-1cbf87cb9583")
 		)
 		(fp_circle
 			(center 0 0)
@@ -674,12 +674,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "d6e1869f-2520-479b-a5f3-f50c6b042ee7")
+			(uuid "c54490fc-4e36-4119-8815-b208a9a2778c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.5 0)
 			(layer "F.Fab")
-			(uuid "6baa3a9e-ea45-496e-a5ff-b09a0396a492")
+			(uuid "f2bd679c-e9e8-48a6-b0a0-9488cd4ba8b1")
 			(effects
 				(font
 					(size 1 1)
@@ -696,9 +696,9 @@
 			(net 5 "LEFT_TURN_EN")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ce71403f-df31-48d1-938d-8f7ccbf794dc")
+			(uuid "3d7ba683-a914-4aa8-b159-a512f7e48b1c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1164,7 +1164,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "6d8e25be-78f3-493c-aecc-04bee512fb14")
 		(at 134.62 82.594)
@@ -1173,7 +1173,7 @@
 		(property "Reference" "TP4"
 			(at 0 -2.5 0)
 			(layer "F.Fab")
-			(uuid "4d66387f-8450-4d7f-afd5-2ddc2f721ddb")
+			(uuid "c3d887e0-75b7-48c2-91e4-d252a528768f")
 			(effects
 				(font
 					(size 1 1)
@@ -1184,7 +1184,7 @@
 		(property "Value" "GND"
 			(at 0 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "7ee3dd23-14c9-4124-bdd3-4cd65fd39813")
+			(uuid "ad2d58a7-afb9-4c8d-a965-a5ef1b55b620")
 			(effects
 				(font
 					(size 1 1)
@@ -1192,12 +1192,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2cb3ad25-48fb-4026-981d-a01486a56c2c")
+			(uuid "cc3b61d7-42b2-418f-b8c0-debbf9cadad4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1210,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae979410-f875-4570-8a5b-b56a8257f52c")
+			(uuid "636e33cd-a588-4c0c-b15a-8f4c80a4e0f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1223,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b56e1b6-0d8e-45c7-a8e4-993f82f8b8f7")
+			(uuid "7db643b2-aab6-4ea4-ba9b-10729439d413")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,7 +1258,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "aebb7aff-df67-4c05-9f8d-4d9613eda34a")
+			(uuid "2eba73cb-d1b5-4889-85bc-2b45bb8baa9f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1269,7 +1269,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "6cfad135-047b-48ec-9269-3ced7e194753")
+			(uuid "8399ac4c-7859-4a19-9753-f11b1ea968fa")
 		)
 		(fp_line
 			(start -0.75 -0.25)
@@ -1279,7 +1279,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fc9abdf6-ab87-40a4-82e7-c7ab3e7f98b0")
+			(uuid "4f801b93-2467-48ea-bc6b-429ce3089bc0")
 		)
 		(fp_line
 			(start -0.75 0.25)
@@ -1289,7 +1289,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f8e0331b-3b56-4180-8659-ded1e07222c9")
+			(uuid "8f9d102c-eb51-4581-bcab-022de733b98c")
 		)
 		(fp_line
 			(start 0.75 -0.25)
@@ -1299,7 +1299,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "40b10900-7366-4e2d-aa25-9517a56054e1")
+			(uuid "1a654a79-f6dc-4ecd-8222-59717e5f2fa3")
 		)
 		(fp_line
 			(start 0.75 0.25)
@@ -1309,7 +1309,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bce233bb-f02c-4211-9e59-74e9cd3d9ff9")
+			(uuid "52c639c1-81b1-47c5-b37b-2f17c0220a57")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1320,12 +1320,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "ca523de2-e97f-4ffa-bef1-d0d1bae14109")
+			(uuid "e6846811-b070-4cc0-939a-ec13715aa692")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.5 0)
 			(layer "F.Fab")
-			(uuid "b50c0349-11fb-44bc-99ca-6cce66498220")
+			(uuid "6490d9ad-0f25-4b3b-b217-8589e47a546a")
 			(effects
 				(font
 					(size 1 1)
@@ -1342,9 +1342,9 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "997c91d5-bff4-49ab-acce-34e52b5aa245")
+			(uuid "40f2700b-9254-4992-a82b-1f37034a45e3")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2129,7 +2129,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "a5a881fe-3e20-46a0-91fb-9436996da914")
 		(at 119.38 82.594)
@@ -2138,7 +2138,7 @@
 		(property "Reference" "TP1"
 			(at 0 -2.5 0)
 			(layer "F.Fab")
-			(uuid "0e7729ba-0fc4-43fd-b743-5fdd7be44b49")
+			(uuid "45f5cba9-a60d-4314-94c8-17a3a8a6f575")
 			(effects
 				(font
 					(size 1 1)
@@ -2149,7 +2149,7 @@
 		(property "Value" "VBATT"
 			(at 0 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "efe19800-d261-41cb-ab0c-a27879ac5c09")
+			(uuid "d6228c21-d0dd-46c2-9dcb-56ecd0bd8a5f")
 			(effects
 				(font
 					(size 1 1)
@@ -2157,12 +2157,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a359104-c7c9-45af-850e-fe901da9ea14")
+			(uuid "33cd5d06-63db-4e7c-8124-ead3ede268a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2175,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7a71aeb-a136-45b9-b127-3909d3a677cd")
+			(uuid "7aba407e-4a42-421a-a29d-376c4417aa17")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2188,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71b49d7f-93dd-420b-8341-be3ec87c4d64")
+			(uuid "a07c49a2-01d2-4b98-8857-bec0867d7841")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2223,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "47eb3dfe-eaa1-4a76-a652-1961eb7d7b23")
+			(uuid "12212614-ed4e-4290-a055-c073e68760dc")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2234,7 +2234,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "4dfc7f8f-788a-48c0-bc55-ea4783417d3f")
+			(uuid "02ebc530-53fa-4202-9897-5fc1912dd768")
 		)
 		(fp_line
 			(start -0.75 -0.25)
@@ -2244,7 +2244,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fbb89099-73df-4aec-8ddf-a7c1442e9cea")
+			(uuid "7fc68238-a2dd-4c09-967f-acc1ea794ad1")
 		)
 		(fp_line
 			(start -0.75 0.25)
@@ -2254,7 +2254,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "55bc1d4b-acf9-420a-aa90-4f68bd1c5960")
+			(uuid "b50d7926-2b43-4c1c-b745-39e83da48231")
 		)
 		(fp_line
 			(start 0.75 -0.25)
@@ -2264,7 +2264,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c611e7b6-0dae-4cb1-bff8-0194d7b005a6")
+			(uuid "ab95d978-f79c-40ca-b05e-c45f1934b619")
 		)
 		(fp_line
 			(start 0.75 0.25)
@@ -2274,7 +2274,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "58720a10-f98d-43d5-92d8-0930c06247d1")
+			(uuid "360311df-16b3-4ba6-94da-22f1963e2378")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2285,12 +2285,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "0f4a986d-db81-4637-b649-9d2d3ed70b76")
+			(uuid "caeb998d-5fa6-4481-aea9-a17fcba59d70")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.5 0)
 			(layer "F.Fab")
-			(uuid "0bd9eb34-02ff-4c6d-8de9-421838cf2355")
+			(uuid "77c1ef3f-85b7-4dfd-a0d8-864dfd168945")
 			(effects
 				(font
 					(size 1 1)
@@ -2307,9 +2307,9 @@
 			(net 4 "V_OUT")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "2714d938-06ee-4909-beb8-b877d7b1caca")
+			(uuid "8d6c99f9-ca81-4210-bf37-4d2d82b8504c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3358,7 +3358,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+	(footprint "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "f0b514b3-1d70-44b5-86ff-ca93a1cb4062")
 		(at 129.54 82.594)
@@ -3367,7 +3367,7 @@
 		(property "Reference" "TP3"
 			(at 0 -2.5 0)
 			(layer "F.Fab")
-			(uuid "518ce0bd-a161-4d3a-922f-4e9c9f9321b0")
+			(uuid "296ac289-fae7-40fb-97c2-2000e980ac4c")
 			(effects
 				(font
 					(size 1 1)
@@ -3378,7 +3378,7 @@
 		(property "Value" "RIGHT"
 			(at 0 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "1444c850-7fb8-4cb0-ad07-8652a08bfd57")
+			(uuid "bfe08cca-0d22-45dc-9627-2dd76bab02f6")
 			(effects
 				(font
 					(size 1 1)
@@ -3386,12 +3386,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0923dcb3-5351-463f-9385-528927e50bec")
+			(uuid "a5a85922-32ee-4519-b814-d5053f17555e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3404,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0123fc8f-3411-46c9-bb39-19502b29cf10")
+			(uuid "274c1017-4d75-4e2c-9374-acb77feb9cdf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3417,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "960300e1-fe23-4f40-9ac6-8319725f0b84")
+			(uuid "11000c9c-402a-4a95-9185-0fc60bad3dd9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3452,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "e9024c74-7798-4b0f-b582-04096d1bf7f6")
+			(uuid "794fd571-7f81-4520-b763-3ba150961f34")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3463,7 +3463,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "f6d1f7d5-e335-4ce6-9bc5-7d078cf7c549")
+			(uuid "6e3ddca1-7ba1-4f2f-bf1a-39c75fbb3379")
 		)
 		(fp_line
 			(start -0.75 -0.25)
@@ -3473,7 +3473,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9beecd3c-7e40-42ad-a5db-0c82be792510")
+			(uuid "7fd5034d-6fe3-4f83-995d-f1d9982be378")
 		)
 		(fp_line
 			(start -0.75 0.25)
@@ -3483,7 +3483,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8db7b6ce-9ec0-45ef-a6ed-5ddfb640ba30")
+			(uuid "624cf0ac-8c68-4d2b-b8aa-c4206a385bcf")
 		)
 		(fp_line
 			(start 0.75 -0.25)
@@ -3493,7 +3493,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1a4138cc-4cf9-4a3e-9387-249fecfadbd0")
+			(uuid "54993267-385c-46ce-8fa9-31de04a048d7")
 		)
 		(fp_line
 			(start 0.75 0.25)
@@ -3503,7 +3503,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5104f232-c236-4912-8be1-810605caabf8")
+			(uuid "5464e73f-4ea8-4f16-b8b1-ad2464b8039f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3514,12 +3514,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "346e0eb2-1f6d-4dc3-a875-4cd4a8b7500e")
+			(uuid "ff07923e-efa0-4aae-95a7-df68abc12352")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.5 0)
 			(layer "F.Fab")
-			(uuid "0c89f0d9-c5d1-4852-a745-d3bea713243b")
+			(uuid "4138501e-8e33-4ae4-bb44-11deeeb3926a")
 			(effects
 				(font
 					(size 1 1)
@@ -3536,9 +3536,9 @@
 			(net 6 "RIGHT_TURN_EN")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7307f682-08a2-4d4f-b83c-dcf7ac7c84ba")
+			(uuid "68b55c3f-73b7-49cf-9123-7636e7825601")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4121,7 +4121,7 @@
 		(layer "F.Fab")
 		(uuid "7903cf7c-1975-4b91-8b98-719305c3f94a")
 	)
-	(gr_text "FarrhadTech Rear Light\nUnit Control Box v0"
+	(gr_text "FahrradTech Rear Light\nUnit Control Box v0"
 		(at 135 95.5 0)
 		(layer "B.SilkS")
 		(uuid "5f4a4d03-a485-4fc0-a76e-3910ed5afeac")

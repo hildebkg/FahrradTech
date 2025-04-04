@@ -5,7 +5,7 @@
 	(uuid "d7503315-c43d-483b-8e44-2a129b61c505")
 	(paper "A4")
 	(title_block
-		(title "FarrhadTech Rear Lights Unit")
+		(title "FahrradTech Rear Lights Unit")
 		(date "2025-03-28")
 		(rev "0")
 	)
@@ -6042,7 +6042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 30.734 159.512 0)
 			(effects
 				(font
@@ -6119,7 +6119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FarrhadTech:TO-220-3_Horizontal_TabUpNoHole"
+		(property "Footprint" "FahrradTech:TO-220-3_Horizontal_TabUpNoHole"
 			(at 37.846 130.937 0)
 			(effects
 				(font
@@ -6205,7 +6205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FarrhadTech:TP4056_module"
+		(property "Footprint" "FahrradTech:TP4056_module"
 			(at 39.37 48.26 0)
 			(effects
 				(font
@@ -7350,7 +7350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 151.384 34.29 0)
 			(effects
 				(font
@@ -7426,7 +7426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 95.504 47.498 0)
 			(effects
 				(font
@@ -7578,7 +7578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "FahrradTech:TestPoint_Keystone_5000-5004_Miniature"
 			(at 125.73 159.512 0)
 			(effects
 				(font
@@ -8018,7 +8018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FarrhadTech:BatteryHolder_18650"
+		(property "Footprint" "FahrradTech:BatteryHolder_18650"
 			(at 61.976 21.59 90)
 			(effects
 				(font
@@ -8176,7 +8176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FarrhadTech:TO-220-3_Horizontal_TabUpNoHole"
+		(property "Footprint" "FahrradTech:TO-220-3_Horizontal_TabUpNoHole"
 			(at 132.842 130.937 0)
 			(effects
 				(font
@@ -10032,7 +10032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FarrhadTech:SW_Lever_1P2T_NKK_GW12LxH"
+		(property "Footprint" "FahrradTech:SW_Lever_1P2T_NKK_GW12LxH"
 			(at 120.396 34.29 0)
 			(effects
 				(font
